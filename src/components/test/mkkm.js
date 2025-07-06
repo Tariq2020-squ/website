@@ -7,7 +7,7 @@ export default function Card(props) {
 
     return props.href ? <a
         href={props.href}
-        className={clsx('card padding--md', styles.cardContainer)}>
+        className={clsx('card padtttding--md', styles.cardContainer)}>
         {props.children}
     </a> : <div className={clsx('card padding--md', styles.cardContainer)}>
         {props.children}
